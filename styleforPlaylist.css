@@ -1,0 +1,312 @@
+body{
+	height:600px;
+	background-color:#0B1026;
+	/*border:2px solid black;*/
+}
+#nav{
+	height:15vh;
+	margin:5px;
+	/*border:2px solid black;*/
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.navbar{
+	height:13vh;
+	width:26%;
+	margin:5px;
+	/*border:2px solid black;*/
+	text-align:center;
+	
+}
+.navbar input{
+	height:30px;
+	width:100%;
+	border-radius:10px;
+}
+.bell-icon{
+	width:8%;
+	color:grey;
+	font-size:8vh;
+}
+.author{
+	
+	width:10%;
+}
+.author img{
+	height:13vh;
+	width:90%;
+	border-radius:50%;
+}
+.head-logo{
+	margin-left:-15vh;
+}
+.text-nav{
+	color:grey;
+	font-size:4vh;
+	margin-left:-30vh;
+}
+.main-box{
+	display:flex;
+	flex-direction:row;
+}
+.main-image-box{
+	width:68vw;
+	height:50vh;
+	margin:10px;
+	display:flex;
+	flex-direction:row;
+	
+}
+.main-image-box11{
+	width:68vw;
+	height:50vh;
+	margin:10px;
+	display:flex;
+	flex-direction:row;
+}
+.main-image-box11 image{
+	width:68vw;
+	height:50vh;
+	margin:10px;
+	
+}
+.latest-box{
+
+	width:68vw;
+	height:45vh;
+	margin:3px;
+	
+	
+}
+.latest-image{
+
+	width:68vw;
+	height:20vh;
+	margin:3px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+
+}
+.latest-image1{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+
+}
+
+
+.latest-part3{
+	margin-left: 200px;;
+}
+
+.popular-box{
+	width:68vw;
+	height:30vh;
+	margin:3px;
+	
+}
+.popular-box-inner{
+	width:68vw;
+	height:20vh;
+	margin:3px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.box1{
+	width:68vw;
+	height:20vh;
+	padding-top:30px;
+	
+	background-color: #0b1036;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.box1-image img{
+	border-radius: 46%;
+}
+.box2{
+	width:68vw;
+	height:20vh;
+	
+	margin-top: 10px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.box2-image{
+	position: relative;
+}
+
+.English-box{
+	width:68vw;
+	height:30vh;
+	margin-top:3px;
+}
+
+.English-box-inner{
+	width:68vw;
+	height:20vh;
+	
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.hindi-box{
+	width:68vw;
+	height:30vh;
+	padding-top:10px;
+	
+}
+
+.hindi-box-inner{
+	width:68vw;
+	height:20vh;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.button{
+	height: 5vh;
+	width: 10vw;
+	color: white;
+	background-image: linear-gradient( 90deg,blue, purple);
+}
+span{
+	margin-left: 20px;
+}
+.upperLayer{
+
+	width:68vw;
+	height:50vh;
+	margin:10px;
+	background-color: #131b40;
+	opacity: 0.5;
+	display:flex;
+	flex-direction:row;
+	/*position: absolute;*/
+}
+
+.main-image img{
+	
+	height:50vh;
+	width:30vw;
+	/*margin-left:-150px;*/
+	position:relative;
+	z-index:0;
+
+}
+.main-image2{
+	
+	height:50vh;
+	width:30vw;
+	color: white;
+	margin-left:20px;
+	position:relative;
+	z-index:0;
+
+}
+
+.playlist-box{
+	height:80vh;
+	width:68vw;
+	color:white;
+	margin-left:10px;
+	
+}
+.playlist-box_inner{
+	height:10vh;
+	width:68vw;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.playlist-box2{
+	width:45%;
+	margin:10px;
+	
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+.playlist-box22{
+	width:6vw;
+	margin:10px;
+	
+	display:flex;
+	flex-direction:row;
+	justify-content: right;
+	align-items:center;
+}
+.playlist-part2 img{
+	height: 8vh;
+	margin-left:20px;
+	color:grey;
+	
+}
+.playlist-part3{
+	margin-left:20px;
+	color:white;
+	line-height: 4px;
+}
+
+#dropdown1{
+	height:80vh;
+	width:25%;
+	margin-left:15px;
+	display: flex;
+	flex-direction: column;
+}
+.dropdown-box{
+
+	color:white;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	
+}
+.dropdown-box select{
+	color:white;
+	height:40px;
+	margin-top:15px;
+	font-size:20px;
+	background-color:#0B1026;
+}
+
+.dropdown-list-inner{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	color:white;
+	
+}
+.dropdown-list-inner img{
+	margin:10px;
+	height:10vh;
+	width:5vw;
+	
+}
+.number{
+	text-align:center;
+	margin-top:20px;
+}
+.song-name{
+	line-height:5px;
+	margin-top:30px;
+}
+.dropdown-list{
+	color:white;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.heart{
+	margin-top:30px;
+	font-size:25px;
+}
